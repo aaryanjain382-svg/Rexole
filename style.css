@@ -1,12 +1,32 @@
-/* HERO */
-
-body{
-    margin: 0;
-     padding-top: 10px; 
-     background-color: #111111; 
-     color: #ffffff;
+:root {
+    --bg: #0f0d14;
+    --surface: #19151f;
+    --surface-raised: #241c2d;
+    --surface-soft: rgba(163, 67, 163, 0.14);
+    --text: #f8f5fb;
+    --muted: #c6bccd;
+    --accent: #d678d5;
+    --accent-bright: #f4a1ef;
+    --line: rgba(244, 161, 239, 0.28);
+    --shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+    --radius: 16px;
 }
 
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 24px clamp(16px, 4vw, 48px) 48px;
+    background:
+        radial-gradient(circle at 85% 0%, rgba(125, 60, 145, 0.24), transparent 34rem),
+        linear-gradient(145deg, #0f0d14 0%, #15101b 55%, #0d0b12 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    line-height: 1.65;
+}
 .hero {
     display: flex;
     align-items: center;
