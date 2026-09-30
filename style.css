@@ -36,16 +36,14 @@ body {
     position: relative;
 transition: top 0.2s ease;
     z-index: 1000;
-    border-color: #a343a3;
+    border-color: #001010;
     border-style: solid;
     width: auto;
     margin-top: 10px;
 }
 
 .hero:hover {
-box-shadow: 0px 0px 10px #a343a3,
-            0px 0px 20px #a343a3,
-            0px 0px 40px #a343a3;
+border-color:#a343a3;
 transition: ease-in 0.5s;
    top: -5px;
 }
@@ -78,12 +76,10 @@ transition: ease-in 0.5s;
 }
 
 .link-text:hover {
-text-shadow:0px 0px 10px #ffffff,
-0px 0px 20px #ffffff,
-0px 0px 40px #a343a3;
+background-color:#a343a3;
+    border-radius:10%
 transition: ease-in 0.3s;
 transition: linear 0.3s;
-font-size: 22px;
 }
 
 hr{
@@ -340,7 +336,7 @@ transition: top 0.2s ease;
 .links:hover{
  top: -5px;
 transition: ease-in 0.3s;
-box-shadow: 0px 0px 5px #f3efef,
-0px 0px 10px #aaa8a8, 
-0px 0px 15px #282626;
+border-color: # a343a34
 }
+
+
